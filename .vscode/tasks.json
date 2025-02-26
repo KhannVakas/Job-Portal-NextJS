@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npmInstall",
+			"command": "npm",
+			"args": [
+				"i",
+				"stripe",
+				"@stripe/stripe-js"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
